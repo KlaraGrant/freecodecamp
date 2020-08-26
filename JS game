@@ -1,0 +1,32 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+
+var answer = floor(random(1, 5));
+ 
+ if ( answer===1) {
+    fill (36, 212, 86);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+    text ("Happiness is around", 144, 253);
+}
+ else if ( answer === 2) {
+     text ("Says yes",  174, 217);
+ }
+  else if ( answer === 3) {
+       fill (212, 144, 36);
+    triangle(200, 104, 280, 280, 120, 280);
+     fill(0, 0, 0);
+     text (" Think twice", 166, 216);
+}
+  else if ( answer === 4) {
+        fill (83, 212, 36);
+    triangle(200, 104, 280, 280, 120, 280);
+     fill(0, 0, 0);
+     text (" Go for it",  176, 215);
+}
+ else if ( answer === 5) {
+     text (" Enjoy the moment",  149, 240);
+}
